@@ -1,0 +1,56 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: white; /* Cor do texto padrão */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa de conteúdo */
+.content-box {
+    width: 400px; /* Largura desejada */
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Imagem */
+.card {
+    display: block;
+    width: 100%; /* Ocupar 100% da largura da content-box */
+    height: auto; /* Altura automática proporcional à largura */
+    border-radius: 10px; /* Arredondar bordas da imagem */
+    cursor: pointer;
+}
+
+/* Estilos para o texto oculto */
+.hidden-text {
+    display: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hidden-text h2 {
+    color: #fff; /* Cor do título */
+}
+
+.hidden-text p {
+    color: #ddd; /* Cor do texto */
+}
+
+/* Espaçamento para o texto abaixo da imagem */
+p {
+    margin-top: 20px;
+}

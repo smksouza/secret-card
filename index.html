@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Caixa Centralizada</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-box">
+            <img class="card" src="ultils/a1873143-c0ed-42fd-bc2d-50182e790b81.jpg" alt="" srcset="">
+            <div class="hidden-text">
+                <h2>Título</h2>
+                <p>Descrição do conteúdo...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const card = document.querySelector('.card');
+        const hiddenText = document.querySelector('.hidden-text');
+
+        card.addEventListener('click', function() {
+            card.style.display = 'none'; // Oculta a imagem ao clicar
+            hiddenText.style.display = 'block'; // Mostra o texto oculto ao clicar
+        });
+    </script>
+</body>
+</html>
